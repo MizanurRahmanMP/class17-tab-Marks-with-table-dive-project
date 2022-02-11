@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --shadow-1 :  0 .125rem .25rem rgba(0,0,0,.075);
+    --shadow-2 :  0 .5rem 1rem rgba(0,0,0,.15);
+    --shadow-3 :  0 1rem 3rem rgba(0,0,0,.175);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient( to right, #00AAFF, #00FF6c);
+}
+
+body.modal-open{
+    overflow: hidden;
+}
+*,
+*::before,
+*::after{
+
+    box-sizing: border-box;
+}
+
+html{
+    font-family: poppins;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+list{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+/* table rea css start */
+/* .mizan-tab{
+    width: 600px;
+    margin: 100px auto 0;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: var(--shadow-3);
+}
+.mizan-tab ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.mizan-tab ul li{
+    display: block;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.mizan-tab ul li a{
+    display: block;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    color: #333;
+
+}
+.mizan-tab ul li a.active{
+    border-bottom: none;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab-pane{
+    display: none;
+}
+.tab-pane.active{
+    display: block;
+} */
+/* table rea css end */
+
+.mizan-tab{
+    width: 600px;
+    margin: 100px auto 0;
+    padding: 20px;
+    background-color: #e9e9e9;
+    box-shadow: var(--shadow-1);
+
+}
+.mizan-tab ul{
+    display: flex;
+    justify-content: space-around;
+}
+.mizan-tab ul li{
+    display: block;
+    
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.mizan-tab ul li a{
+    display: block;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+.mizan-tab ul li a.active{
+    border-bottom: none;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+.tab-pane{
+    display: none;
+}
+.tab-pane.active{
+    display: block;
+}
